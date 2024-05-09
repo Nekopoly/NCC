@@ -17,7 +17,32 @@ html, body, main {
 body::-webkit-scrollbar {
     width: 10px;
 }
-
+.NameMarker{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: rgba(240, 62, 62, 0.295);
+}
+a:link {
+    color: rgb(206, 124, 124);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(48, 75, 165);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+  a:active {
+    color: rgb(136, 45, 60);
+    background-color: transparent;
+    text-decoration: underline;
+  }
 body::-webkit-scrollbar-thumb {
     height: 30%;
     background: #2e3440;
