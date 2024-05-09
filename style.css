@@ -1,9 +1,4 @@
-@font-face {
-    font-family: 'KCC-Hanbit';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
 @font-face {
     font-family: 'NanumSquareNeo-Variable';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
@@ -14,7 +9,17 @@ html,body{
     font-family: 'NanumSquareNeo-Variable';
     font-weight: normal;
 }
-
+h1{
+    font-family: 'NanumSquare';
+    font-weight: bold;
+}
+.card-text{
+    font-size: 16pt;
+}
+.Tn{
+   border-color: #2e3440;
+   border: 0.3em solid;
+}
 .NameMarker {
     text-decoration: underline;
     text-underline-offset: 8px;
