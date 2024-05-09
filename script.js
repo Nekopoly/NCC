@@ -82,7 +82,6 @@ function makeTimeline(data){
         `;
     } else {
         TL_body.innerHTML += `
-        <ul class="timeline" id="TL_data">
             <li class="timeline-item right">
               <div class="timeline-body">
                 <div class="timeline-meta">
