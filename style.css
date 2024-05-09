@@ -4,54 +4,60 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'NanumSquareNeo-Variable';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
-body::-webkit-scrollbar{
+html,body{
     font-family: 'NanumSquareNeo-Variable';
-    width: 10px;
+    font-weight: normal;
 }
-.NameMarker{
+
+.NameMarker {
     text-decoration: underline;
     text-underline-offset: 8px;
     text-decoration-color: rgba(240, 62, 62, 0.295);
 }
+
 a:link {
     color: rgb(206, 124, 124);
     background-color: transparent;
     text-decoration: none;
-  }
-  a:visited {
+}
+
+a:visited {
     color: rgb(48, 75, 165);
     background-color: transparent;
     text-decoration: none;
-  }
-  a:hover {
+}
+
+a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
     text-underline-offset: 5px;
-  }
-  a:active {
+}
+
+a:active {
     color: rgb(136, 45, 60);
     background-color: transparent;
     text-decoration: underline;
-  }
+}
+
 body::-webkit-scrollbar-thumb {
     height: 30%;
     background: #2e3440;
-    
+
     border-radius: 10px;
 }
 
 body:-webkit-scrollbar-track {
     background: rgba(104, 107, 112, 0.185);
 }
-.Tn{
+
+.Tn {
     width: 16cap;
     margin-bottom: 0.6em;
 }
