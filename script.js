@@ -71,7 +71,7 @@ function makeTimeline(data){
                 <div class="timeline-content timeline-indicator">
                   <div class="card border-0 shadow">
                     <div class="card-body p-xl-4">
-                      <img src="`+cont.ImageUrl+`" alt="logo" style="width: 20em; margin: 1em;">
+                      <img src="`+cont.ImageUrl+`" alt="logo" class="Tn">
                       <h2 class="card-title mb-2">`+cont.CharName+`</h2>
                       <p class="card-text m-0">`+cont.Description+`</p>
                     </div>
@@ -93,7 +93,7 @@ function makeTimeline(data){
                 <div class="timeline-content timeline-indicator">
                   <div class="card border-0 shadow">
                     <div class="card-body p-xl-4">
-                      <img src="`+cont.ImageUrl+`" alt="logo" style="width: 20em; margin: 1em;">
+                      <img src="`+cont.ImageUrl+`" alt="logo" class="Tn">
                       <h2 class="card-title mb-2">`+cont.CharName+`</h2>
                       <p class="card-text m-0">`+cont.Description+`</p>
                     </div>

@@ -14,3 +14,7 @@
 html, body, main {
     font-family: 'NanumSquareNeo-Variable';
 }
+.Tn{
+    width: 16cap;
+    margin-bottom: 0.6em;
+}
