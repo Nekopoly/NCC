@@ -92,7 +92,7 @@ function makeTimeline(data){
                 <div class="timeline-content timeline-indicator">
                   <div class="card border-0 shadow">
                     <div class="card-body p-xl-4">
-                      <img src="`+cont.ImageUrl+`" alt="logo" class="Tn">
+                      <img src="`+cont.ImageUrl+`" alt="`+cont.CharName+` 초상화" class="Tn">
                       <h1 class="card-title mb-2"><span class="NameMarker">`+cont.CharName+`</span></h1>
                       <p class="card-text m-0">`+cont.Description+`</p>
                     </div>
